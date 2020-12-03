@@ -22,3 +22,5 @@ export const LOGOUT = 'LOGOUT';
 
 export const RELOAD_MAP = 'RELOAD_MAP';
 export const RELOAD_MAP_FINISH = 'RELOAD_MAP_FINISH';
+
+export const UPDATE_BOOKINGS = 'UPDATE_BOOKINGS';

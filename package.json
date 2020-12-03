@@ -6,11 +6,6 @@
     "npm": "5.6.0"
   },
   "private": true,
-  "proxy": {
-    "api/v1/*": {
-      "target": "http://localhost:3001"
-    }
-  },
   "dependencies": {
     "aws-sdk": "^2.309.0",
     "axios": "^0.18.0",
@@ -23,6 +18,7 @@
     "datauri": "^3.0.0",
     "express": "^4.16.3",
     "font-awesome": "^4.7.0",
+    "http-proxy-middleware": "^1.0.6",
     "jquery": "^3.3.1",
     "jsonwebtoken": "^8.2.1",
     "moment": "^2.22.2",
@@ -41,6 +37,7 @@
     "react-responsive-modal": "^3.0.3",
     "react-router-dom": "^4.2.2",
     "react-scripts": "2.0.0",
+    "react-star-ratings": "^2.3.0",
     "react-stripe-elements": "^2.0.1",
     "react-toastify": "^4.0.0-rc.4",
     "redux": "^3.7.2",
